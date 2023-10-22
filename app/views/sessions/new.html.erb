@@ -1,0 +1,15 @@
+<h1>login</h1>
+<%= form_with url: login_path, local: true do |f| %>
+<div class="field">
+    <%= f.label :uid %>
+    <%= f.text_field :uid %>
+</div>
+<div class="field">
+    <%= f.label :password %>
+    <%= f.text_field :password %>
+</div>
+<div>
+    <%= f.submit "login" %>
+</div>
+<%= link_to "sign up",new_user_path %>
+<% end %>
