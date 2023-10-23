@@ -25,7 +25,7 @@ production:
 adapter:  postgresql
 encoding:  unicode
 pool: 5
-database: arai
-username: arai_user
-password: <%= ENV['JlJnORXPh8NuRFVXUYv84nmocXZrG2LP'] %>
-url: <%= ENV['postgres://arai_user:JlJnORXPh8NuRFVXUYv84nmocXZrG2LP@dpg-ckeh42dtj22c73ecp96g-a/arai'] %>
+database: cs3_render
+username: cs3_render_user
+password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
+url: <%= ENV['DATABASE_URL'] %>
