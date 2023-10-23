@@ -22,8 +22,8 @@ test:
 
 production:
   <<: *default
-adapter:  postgresql
-encoding:  unicode
+adapter: postgresql
+encoding: unicode
 pool: 5
 database: cs3_render
 username: cs3_render_user
